@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecded0bb-035d-494e-bf41-1597c4e5eda3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/ApplicationStartInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/dto/MessageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/dto/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/entities/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/repositories/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/security/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/security/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/ichat.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ad40baa7-3712-461c-af09-ac042048ef38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ad40baa7-3712-461c-af09-ac042048ef38.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f77c85e6-21bd-4a3c-9d03-3304235851f3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f77c85e6-21bd-4a3c-9d03-3304235851f3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/Ds2022Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/Ds2022Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/Admincontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/Admincontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/UserAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/UserAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/controllers/handlers/dto/LoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/entities/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/entities/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/MappingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/MappingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/UserAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/UserAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/implementation/MappingServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/implementation/MappingServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/implementation/UserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/implementation/UserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/Ds2022Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/Admincontroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/DeviceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/MeasurementController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/RestExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/UserAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/dto/DeviceMeasurementDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/dto/IdDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/dto/LoginDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/dto/MappingDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/dto/MappingDto2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/dto/MeasurementDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/dto/ResetDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/exceptions/model/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/exceptions/model/DuplicateResourceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/exceptions/model/EntityValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/exceptions/model/ExceptionHandlerResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/exceptions/model/ParameterValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/controllers/handlers/exceptions/model/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/entities/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/entities/Measurement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/entities/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/entities/RoleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/entities/UserAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/repositories/DeviceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/repositories/MeasurementRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/repositories/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/DeviceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/MailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/MappingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/MeasurementService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/UserAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/implementation/DeviceServiceImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/implementation/MailSenderImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/implementation/MappingServiceImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/implementation/MeasurementServiceImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classes/ro/tuc/ds2022/services/implementation/UserServiceImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/classpath.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/BOOT-INF/layers.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/META-INF/maven/ro.tuc/ds-2022/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/application/META-INF/maven/ro.tuc/ds-2022/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/Ds2022Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/Ds2022Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/controllers/handlers/UserAccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/controllers/handlers/UserAccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/controllers/handlers/dto/LoginDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/controllers/handlers/dto/LoginDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/entities/UserAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/entities/UserAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/services/UserAccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/services/UserAccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/services/implementation/UserServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/tuc/ds2022/services/implementation/UserServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/HdrHistogram-2.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/HikariCP-3.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/LatencyUtils-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/accessors-smart-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/asm-5.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/aspectjweaver-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/byte-buddy-1.10.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/dom4j-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/evo-inflector-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/h2-1.4.200.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/hamcrest-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/hamcrest-core-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/hibernate-core-5.4.20.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/hibernate-validator-6.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/hibernate-validator-annotation-processor-6.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/istack-commons-runtime-3.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jackson-annotations-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jackson-core-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jackson-databind-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jackson-datatype-jdk8-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jackson-datatype-jsr310-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jackson-module-parameter-names-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jakarta.activation-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jakarta.el-3.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jakarta.mail-1.6.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jakarta.persistence-api-2.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jakarta.transaction-api-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jandex-2.1.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/javax.el-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jaxb-runtime-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jboss-logging-3.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/json-path-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/json-smart-2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/jul-to-slf4j-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/junit-4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/log4j-api-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/log4j-to-slf4j-2.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/lombok-1.18.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/micrometer-core-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/postgresql-42.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/snakeyaml-1.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-aop-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-aspects-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-beans-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-actuator-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-actuator-autoconfigure-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-autoconfigure-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-jarmode-layertools-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-actuator-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-aop-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-data-jpa-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-data-rest-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-hateoas-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-jdbc-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-json-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-logging-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-mail-2.5.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-tomcat-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-boot-starter-web-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-context-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-context-support-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-core-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-data-commons-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-data-jpa-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-data-rest-core-3.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-data-rest-webmvc-3.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-expression-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-hateoas-1.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-jcl-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-jdbc-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-orm-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-plugin-core-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-tx-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-web-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/spring-webmvc-5.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/tomcat-embed-core-9.0.37.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/tomcat-embed-websocket-9.0.37.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/txw2-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependencies/BOOT-INF/lib/validation-api-2.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ds-2022-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ds-2022-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/ClassPathIndexFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/ExecutableArchiveLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/JarLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/LaunchedURLClassLoader$DefinePackageCallType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/LaunchedURLClassLoader$UseFastConnectionExceptionsEnumeration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/LaunchedURLClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/Launcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/MainMethodRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/PropertiesLauncher$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/PropertiesLauncher$ArchiveEntryFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/PropertiesLauncher$ClassPathArchives.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/PropertiesLauncher$PrefixMatchingArchiveFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/PropertiesLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/WarLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/Archive$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/Archive$EntryFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/Archive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/ExplodedArchive$AbstractIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/ExplodedArchive$ArchiveIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/ExplodedArchive$EntryIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/ExplodedArchive$FileEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/ExplodedArchive$SimpleJarFileArchive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/ExplodedArchive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/JarFileArchive$AbstractIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/JarFileArchive$EntryIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/JarFileArchive$JarFileEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/JarFileArchive$NestedArchiveIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/archive/JarFileArchive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/data/RandomAccessData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/data/RandomAccessDataFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/data/RandomAccessDataFile$DataInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/data/RandomAccessDataFile$FileAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/data/RandomAccessDataFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/AsciiBytes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/Bytes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/CentralDirectoryEndRecord$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/CentralDirectoryEndRecord$Zip64End.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/CentralDirectoryEndRecord$Zip64Locator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/CentralDirectoryEndRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/CentralDirectoryFileHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/CentralDirectoryParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/CentralDirectoryVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/FileHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarEntryFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarFile$JarEntryEnumeration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarFile$JarFileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarFileEntries$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarFileEntries$EntryIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarFileEntries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarURLConnection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarURLConnection$JarEntryName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/JarURLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/StringSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jar/ZipInflaterInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jarmode/JarMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jarmode/JarModeLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/jarmode/TestJarMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-loader/org/springframework/boot/loader/util/SystemPropertyUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ro/tuc/ds2022/Ds2020TestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test-sql/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test-sql/delete.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HJiQZaIQcY5VHV870DRiMTXC2q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alexandru Andercou/Desktop/A3/SD_BACKEND/spring-demo&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;be6b9fbdeec6980f5412d6a5d85b6de8&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ro.tuc.ds2022.controllers.handlers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandru Andercou\Desktop\A3\SD_BACKEND\spring-demo\src\main\proto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexandru Andercou\Desktop\A3\SD_BACKEND\spring-demo\src\main\java" />
+      <recent name="C:\Users\Alexandru Andercou\Desktop\A3\SD_BACKEND\spring-demo\src\main" />
+      <recent name="C:\Users\Alexandru Andercou\Desktop\AssigmnentSD\spring-demo\target\generated-sources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="build" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ds-2022 [package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-demo [protobuf:compile-custom]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="protobuf:compile-custom" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="NodeWebKit" factoryName="NW.js" nameIsGenerated="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Ds2022Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ro.tuc.ds2022.Ds2022Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ds2022Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="spring-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ro.tuc.ds2022.Ds2022Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.ds-2022 [package]" />
+      <item itemvalue="Maven.spring-demo [protobuf:compile-custom]" />
+      <item itemvalue="NW.js.Unnamed" />
+      <item itemvalue="Spring Boot.Ds2022Application" />
+      <item itemvalue="Spring Boot.Ds2022Application (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.spring-demo [protobuf:compile-custom]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecded0bb-035d-494e-bf41-1597c4e5eda3" name="Changes" comment="" />
+      <created>1668009575610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668009575610</updated>
+      <workItem from="1668009579563" duration="17694000" />
+      <workItem from="1668167541932" duration="3568000" />
+      <workItem from="1668448697437" duration="749000" />
+      <workItem from="1668496788444" duration="4143000" />
+      <workItem from="1668551834382" duration="612000" />
+      <workItem from="1668666701739" duration="3314000" />
+      <workItem from="1668760755746" duration="1940000" />
+      <workItem from="1668774181600" duration="6461000" />
+      <workItem from="1668981600688" duration="6262000" />
+      <workItem from="1669041430441" duration="775000" />
+      <workItem from="1669057890810" duration="2240000" />
+      <workItem from="1669150573256" duration="2212000" />
+      <workItem from="1671967291383" duration="15596000" />
+      <workItem from="1672308268730" duration="13497000" />
+      <workItem from="1672731814078" duration="24354000" />
+      <workItem from="1672848641582" duration="408000" />
+      <workItem from="1672850746614" duration="38416000" />
+      <workItem from="1673208648271" duration="3255000" />
+      <workItem from="1673272531456" duration="6008000" />
+      <workItem from="1673292100635" duration="1870000" />
+      <workItem from="1673295391368" duration="7436000" />
+      <workItem from="1673385934487" duration="14120000" />
+      <workItem from="1673437337908" duration="2309000" />
+      <workItem from="1673445239000" duration="8182000" />
+      <workItem from="1673464454495" duration="9975000" />
+      <workItem from="1673517981604" duration="4951000" />
+      <workItem from="1673597595016" duration="4837000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ro/tuc/ds2022/services/UserAccountService.java</url>
+          <line>21</line>
+          <properties class="ro.tuc.ds2022.services.UserAccountService" method="devicesForUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
